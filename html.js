@@ -68,10 +68,6 @@ const somma=(12+20)
 console.log(somma)
 
 
-
-
-
-
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
@@ -101,9 +97,10 @@ const variabilex =12
 
 console.log(typeof variabilex)
 
-const somma2= (variabilex-4)
+const somma2= (12-4)
 
-console.log(typeof somma2)
+console.log(somma2)
+
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
@@ -116,14 +113,15 @@ console.log(typeof somma2)
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-const name1= "jhon"
-const name2= "Jhon"             //ps:qui volevo dichiarare che la loro uguaglianza sia falsa//
+const name1 = "jhon";
+const name2 = "Jhon";                          //ps:qui volevo dichiarare che la loro uguaglianza sia falsa//
 
-const name=(jhon==Jhon)
+console.log('jhon === Jhon');
 
-console.log()
 
-let myString = new String("jhonJhon");
-myString=myString.toLowerCase()
+var tempText = "jhon Jhon ";                   //ps:qui volevo dichiarare che la loro uguaglianza diventi true//
+
+console.log(tempText.toLowerCase());
+
 
 
